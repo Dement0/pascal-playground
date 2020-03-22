@@ -5,3 +5,9 @@ number= record
         exact: (ival: integer);
         approx: (rval: real)
     end
+
+// Record
+type date = record
+    m: month;
+    d: 1..31
+end
